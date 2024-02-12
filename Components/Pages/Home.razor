@@ -1,0 +1,13 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<input @bind="message" />
+<h1>@message</h1>
+
+
+@code {
+  private string message = "";
+
+}
